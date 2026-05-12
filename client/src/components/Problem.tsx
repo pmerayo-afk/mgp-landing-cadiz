@@ -71,11 +71,11 @@ export default function Problem() {
             No es una moda. Es una tendencia estructural.
           </h2>
           <p className="text-lg text-muted-foreground leading-relaxed">
-            La escasez de talento no es un problema temporal ni exclusivo de tu empresa. Es un fenómeno europeo que afecta a sectores clave: industria, hostelería, construcción, logística, sanidad y tecnología.
+            La escasez de talento no es un problema temporal ni exclusivo de tu empresa. Es un fenomeno europeo que afecta a sectores clave: industria, hosteleria, construccion, logistica, sanidad y tecnologia.
           </p>
         </div>
 
-        {/* Estadísticas principales */}
+        {/* Estadisticas principales */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
           {/* Stat 1 */}
           <div className="bg-gradient-to-br from-accent/10 to-accent/5 rounded-xl p-8 shadow-corporate hover-lift">
@@ -84,14 +84,14 @@ export default function Problem() {
                 <TrendingUp size={24} className="text-white" />
               </div>
               <div>
-                <p className="text-sm font-heading text-muted-foreground uppercase tracking-wide">España 2025</p>
+                <p className="text-sm font-heading text-muted-foreground uppercase tracking-wide">Espana 2025</p>
               </div>
             </div>
             <Counter end={48} duration={2} suffix="%" />
             <p className="text-muted-foreground mt-4 leading-relaxed">
-              de las empresas encuestadas ven dificultades asociadas a la mano de obra. El máximo registrado desde 2020.
+              de las empresas encuestadas ven dificultades asociadas a la mano de obra. El maximo registrado desde 2020.
             </p>
-            <p className="text-xs text-muted-foreground mt-3">Fuente: Banco de España, EBAE Q4 2025</p>
+            <p className="text-xs text-muted-foreground mt-3">Fuente: Banco de Espana, EBAE Q4 2025</p>
           </div>
 
           {/* Stat 2 */}
@@ -106,9 +106,9 @@ export default function Problem() {
             </div>
             <Counter end={63} duration={2} suffix="%" />
             <p className="text-muted-foreground mt-4 leading-relaxed">
-              de las pequeñas y medianas empresas no logran encontrar los perfiles profesionales que necesitan.
+              de las pequenas y medianas empresas no logran encontrar los perfiles profesionales que necesitan.
             </p>
-            <p className="text-xs text-muted-foreground mt-3">Fuente: Comisión Europea, Plan de Acción 2024</p>
+            <p className="text-xs text-muted-foreground mt-3">Fuente: Comision Europea, Plan de Accion 2024</p>
           </div>
 
           {/* Stat 3 */}
@@ -118,21 +118,21 @@ export default function Problem() {
                 <TrendingUp size={24} className="text-white" />
               </div>
               <div>
-                <p className="text-sm font-heading text-muted-foreground uppercase tracking-wide">Comisión Europea</p>
+                <p className="text-sm font-heading text-muted-foreground uppercase tracking-wide">Comision Europea</p>
               </div>
             </div>
             <Counter end={42} duration={2} suffix="" />
             <p className="text-muted-foreground mt-4 leading-relaxed">
               profesiones en las que existe escasez acreditada en toda Europa. La necesidad es global.
             </p>
-            <p className="text-xs text-muted-foreground mt-3">Fuente: Comisión Europea, 2024</p>
+            <p className="text-xs text-muted-foreground mt-3">Fuente: Comision Europea, 2024</p>
           </div>
         </div>
 
         {/* Mensaje clave */}
         <div className="bg-secondary rounded-xl p-8 md:p-12 border-l-4 border-accent animate-slideInLeft">
           <p className="text-lg md:text-xl font-heading text-foreground leading-relaxed">
-            <span className="font-bold text-primary">La contratación internacional ha dejado de ser una opción</span> para convertirse en una necesidad operativa real. El mercado local no llega. El talento es global. No es el plan B. <span className="font-bold text-accent">Es el plan estratégico.</span>
+            <span className="font-bold text-primary">La contratacion internacional ha dejado de ser una opcion</span> para convertirse en una necesidad operativa real. El mercado local no llega. El talento es global. No es el plan B. <span className="font-bold text-accent">Es el plan estrategico.</span>
           </p>
         </div>
       </div>

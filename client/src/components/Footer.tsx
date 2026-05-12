@@ -31,7 +31,7 @@ export default function Footer() {
               </li>
               <li>
                 <a href="#solucion" className="text-white/70 hover:text-white transition-colors">
-                  Solucion
+                  Nuestra Solucion
                 </a>
               </li>
               <li>

@@ -38,7 +38,7 @@ export default function Header() {
             onClick={() => scrollToSection('solucion')}
             className="text-sm font-heading text-foreground hover:text-primary transition-colors"
           >
-            Solución
+            Nuestra Solución
           </button>
           <button
             onClick={() => scrollToSection('proceso')}
@@ -83,7 +83,7 @@ export default function Header() {
               onClick={() => scrollToSection('solucion')}
               className="text-left text-sm font-heading text-foreground hover:text-primary transition-colors py-2"
             >
-              Solución
+              Nuestra Solución
             </button>
             <button
               onClick={() => scrollToSection('proceso')}

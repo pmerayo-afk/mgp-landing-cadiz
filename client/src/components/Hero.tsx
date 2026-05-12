@@ -36,14 +36,14 @@ export default function Hero() {
             </span>
           </div>
 
-          {/* Título */}
+          {/* Titulo */}
           <h1 className="text-5xl md:text-7xl font-display font-bold text-white mb-6 leading-tight animate-slideInLeft">
             Contrata el talento global que tu empresa necesita
           </h1>
 
-          {/* Subtítulo */}
+          {/* Subtitulo */}
           <p className="text-xl md:text-2xl text-white/90 mb-8 leading-relaxed max-w-2xl animate-slideInRight">
-            La escasez de talento es un hecho. La solución es planificar. MGP te acompaña en cada paso de la contratación internacional.
+            La escasez de talento es un hecho. La solucion es planificar. MGP te acompana en cada paso de la contratacion internacional.
           </p>
 
           {/* CTA Buttons */}
@@ -52,7 +52,7 @@ export default function Hero() {
               onClick={() => scrollToSection('solucion')}
               className="px-8 py-4 bg-accent text-white rounded-lg font-heading font-semibold hover:bg-opacity-90 transition-all hover-lift flex items-center justify-center gap-2 group"
             >
-              Descubre Nuestra Solución
+              Descubre Nuestra Solucion
               <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
             </button>
             <button
@@ -63,11 +63,11 @@ export default function Hero() {
             </button>
           </div>
 
-          {/* Estadísticas rápidas */}
+          {/* Estadisticas rapidas */}
           <div className="mt-16 grid grid-cols-3 gap-4 md:gap-8 animate-fadeInUp" style={{ animationDelay: '0.4s' }}>
             <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 md:p-6 border border-white/20">
               <div className="text-3xl md:text-4xl font-display font-bold text-white mb-2">48%</div>
-              <p className="text-sm md:text-base text-white/80">Empresas con dificultades de mano de obra en España</p>
+              <p className="text-sm md:text-base text-white/80">Empresas con dificultades de mano de obra en Espana</p>
             </div>
             <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 md:p-6 border border-white/20">
               <div className="text-3xl md:text-4xl font-display font-bold text-white mb-2">63%</div>
@@ -75,7 +75,7 @@ export default function Hero() {
             </div>
             <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 md:p-6 border border-white/20">
               <div className="text-3xl md:text-4xl font-display font-bold text-white mb-2">11</div>
-              <p className="text-sm md:text-base text-white/80">Países en nuestra red internacional</p>
+              <p className="text-sm md:text-base text-white/80">Paises en nuestra red internacional</p>
             </div>
           </div>
         </div>

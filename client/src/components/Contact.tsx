@@ -16,7 +16,6 @@ export default function Contact() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Aqui iria la logica para enviar el formulario
     console.log('Formulario enviado:', formData);
     alert('Gracias por tu interes. Nos pondremos en contacto pronto.');
     setFormData({ name: '', email: '', company: '', message: '' });
@@ -101,7 +100,7 @@ export default function Contact() {
                   required
                   rows={5}
                   className="w-full px-4 py-3 bg-white border border-border rounded-lg font-body text-foreground placeholder-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary transition-all resize-none"
-                  placeholder="Cuéntanos sobre tu necesidad..."
+                  placeholder="Cuentanos sobre tu necesidad..."
                 ></textarea>
               </div>
 

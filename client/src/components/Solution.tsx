@@ -5,19 +5,19 @@ export default function Solution() {
     {
       icon: Users,
       title: 'Legal y Administrativa',
-      description: 'Visados, permisos, plazos con la Administración. Cada paso tiene su procedimiento. Nuestros abogados colegiados garantizan el cumplimiento normativo.',
+      description: 'Visados, permisos, plazos con la Administracion. Cada paso tiene su procedimiento. Nuestros abogados colegiados garantizan el cumplimiento normativo.',
       color: 'from-blue-500 to-blue-600',
     },
     {
       icon: Briefcase,
       title: 'Operativa',
-      description: 'Contratos, documentación, coordinación entre país de origen y destino. Gestión integral del proceso desde el inicio hasta la llegada del trabajador.',
+      description: 'Contratos, documentacion, coordinacion entre pais de origen y destino. Gestion integral del proceso desde el inicio hasta la llegada del trabajador.',
       color: 'from-purple-500 to-purple-600',
     },
     {
       icon: Globe,
       title: 'Humana',
-      description: 'Alojamiento, acogida, integración. El factor que más afecta a la retención. Acompañamiento 360 en la adaptación del trabajador.',
+      description: 'Alojamiento, acogida, integracion. El factor que mas afecta a la retencion. Acompanamiento 360 en la adaptacion del trabajador.',
       color: 'from-orange-500 to-orange-600',
     },
   ];
