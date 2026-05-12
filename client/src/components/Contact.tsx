@@ -139,6 +139,7 @@ export default function Contact() {
                 <div>
                   <h3 className="text-lg font-heading font-bold text-foreground mb-2">Telefono</h3>
                   <p className="text-muted-foreground">Ramon de la Rosa</p>
+                  <p className="text-muted-foreground">+00 123456789</p>
                   <p className="text-sm text-muted-foreground mt-1">Delegado Cadiz</p>
                 </div>
               </div>

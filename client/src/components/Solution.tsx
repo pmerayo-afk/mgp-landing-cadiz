@@ -1,4 +1,5 @@
 import { CheckCircle2, Users, Briefcase, Globe } from 'lucide-react';
+import solucionImage from "@/assets/Solucion_Image_mgp.png";
 
 export default function Solution() {
   const pillars = [
@@ -44,7 +45,7 @@ export default function Solution() {
         {/* Imagen de solucion */}
         <div className="mb-16 rounded-xl overflow-hidden shadow-corporate-lg animate-slideInRight">
           <img
-            src="https://d2xsxph8kpxj0f.cloudfront.net/310419663032410723/BacJLYRJ9vtFQNnqCZBuMr/mgp-team-expertise-bMsfjPsjcdoqGdmcqidgwc.webp"
+            src={solucionImage}
             alt="Equipo multidisciplinario de MGP"
             className="w-full h-auto object-cover"
           />

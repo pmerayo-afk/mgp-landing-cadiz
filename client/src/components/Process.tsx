@@ -1,4 +1,5 @@
 import { CheckCircle2 } from 'lucide-react';
+import imagenMetod from "@/assets/Metod_Image_mgp.png"
 
 export default function Process() {
   const steps = [
@@ -56,7 +57,7 @@ export default function Process() {
         {/* Imagen del proceso */}
         <div className="mb-16 rounded-xl overflow-hidden shadow-corporate-lg animate-slideInLeft">
           <img
-            src="https://d2xsxph8kpxj0f.cloudfront.net/310419663032410723/BacJLYRJ9vtFQNnqCZBuMr/mgp-process-workflow-ABNUtqRZqYEY8C3tiD4J3a.webp"
+            src={imagenMetod}
             alt="Proceso de contratacion internacional"
             className="w-full h-auto object-cover"
           />
