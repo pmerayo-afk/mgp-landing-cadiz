@@ -25,13 +25,14 @@ export default function Contact() {
     <section id="contacto" className="py-20 md:py-32 bg-gradient-to-b from-white to-secondary">
       <div className="container mx-auto px-4">
         {/* Encabezado */}
-        <div className="max-w-3xl mb-16 animate-fadeInUp">
+        <div className="max-w-[900] mb-16 animate-fadeInUp">
           <div className="inline-flex items-center gap-2 mb-4">
             <div className="w-2 h-2 bg-accent rounded-full"></div>
             <span className="text-sm font-heading font-semibold text-primary uppercase tracking-wide">
               Ponte en Contacto
             </span>
           </div>
+          <br />
           <h2 className="text-4xl md:text-5xl font-display font-bold text-foreground mb-6 accent-line">
             La pregunta no es puedo. Es cuando empiezo.
           </h2>
@@ -139,7 +140,7 @@ export default function Contact() {
                 <div>
                   <h3 className="text-lg font-heading font-bold text-foreground mb-2">Telefono</h3>
                   <p className="text-muted-foreground">Ramon de la Rosa</p>
-                  <p className="text-muted-foreground">+00 123456789</p>
+                  <p className="text-muted-foreground">+34 618 05 81 50</p>
                   <p className="text-sm text-muted-foreground mt-1">Delegado Cadiz</p>
                 </div>
               </div>

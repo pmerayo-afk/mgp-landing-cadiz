@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { TrendingUp } from 'lucide-react';
+import mgpVideo from "@/assets/mgp_video.mp4";
 
 interface CounterProps {
   end: number;
@@ -57,17 +58,18 @@ function Counter({ end, duration, suffix = '' }: CounterProps) {
 
 export default function Problem() {
   return (
-    <section id="problema" className="py-20 md:py-32 bg-white">
+    <section id="problema" className="pt-20 pb-5  md:py-32 bg-white">
       <div className="container mx-auto px-4">
         {/* Encabezado */}
-        <div className="max-w-3xl mb-16 animate-fadeInUp">
+        <div className="max-w-[900] mb-16 animate-fadeInUp">
           <div className="inline-flex items-center gap-2 mb-4">
             <div className="w-2 h-2 bg-accent rounded-full"></div>
             <span className="text-sm font-heading font-semibold text-primary uppercase tracking-wide">
               La Realidad del Mercado
             </span>
           </div>
-          <h2 className="text-4xl md:text-5xl font-display font-bold text-foreground mb-6 accent-line">
+          <br />
+          <h2 className="text-3xl md:text-5xl font-display font-bold text-foreground mb-6 accent-line">
             No es una moda. Es una tendencia estructural.
           </h2>
           <p className="text-lg text-muted-foreground leading-relaxed">
@@ -135,6 +137,19 @@ export default function Problem() {
             <span className="font-bold text-primary">La contratacion internacional ha dejado de ser una opcion</span> para convertirse en una necesidad operativa real. El mercado local no llega. El talento es global. No es el plan B. <span className="font-bold text-accent">Es el plan estrategico.</span>
           </p>
         </div>
+
+         {/* Video de Problema */}
+         <br></br>
+     <div className="mb-16 max-w-[900px] mx-auto rounded-xl overflow-hidden shadow-corporate-lg animate-slideInRight">
+  <video
+    src={mgpVideo}
+    className="w-full h-auto object-cover"
+    autoPlay
+    muted
+    loop
+    playsInline
+  />
+</div>
       </div>
     </section>
   );

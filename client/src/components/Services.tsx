@@ -1,5 +1,6 @@
 import { Users, Globe, Heart, Award, MapPin, Shield } from 'lucide-react';
 
+
 export default function Services() {
   const services = [
     {
@@ -53,14 +54,6 @@ export default function Services() {
           </p>
         </div>
 
-        {/* Imagen de servicios */}
-        <div className="mb-16 rounded-xl overflow-hidden shadow-corporate-lg animate-slideInRight">
-          <img
-            src="https://d2xsxph8kpxj0f.cloudfront.net/310419663032410723/BacJLYRJ9vtFQNnqCZBuMr/mgp-success-statistics-iSmGQF2zJPYZR6VKfr3zjy.webp"
-            alt="Resultados y estadisticas de MGP"
-            className="w-full h-auto object-cover"
-          />
-        </div>
 
         {/* Grid de servicios */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
