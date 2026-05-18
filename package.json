@@ -4,10 +4,13 @@
   "type": "module",
   "license": "MIT",
   "scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "preview": "vite preview"
-},
+    "dev": "vite --host",
+    "build": "vite build && esbuild server/index.ts --platform=node --packages=external --bundle --format=esm --outdir=dist/public",
+    "start": "NODE_ENV=production node dist/index.js",
+    "preview": "vite preview --host",
+    "check": "tsc --noEmit",
+    "format": "prettier --write ."
+  },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@hookform/resolvers": "^5.2.2",
